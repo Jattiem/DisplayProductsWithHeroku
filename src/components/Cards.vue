@@ -5,12 +5,12 @@
         <div class="card">
           <div class="layer"></div>
           <div class="content">
-            <img :src="product.prodUrl" alt="productImage" id="food-img" class="img-fluid image"/>
+            <img :src="product.img" alt="productImage" id="food-img" class="img-fluid image"/>
             <br />
             <div class="details">
-              <span>{{ product.prodName }}</span>
+              <span>{{ product.title }}</span>
               <br />
-              <router-link :to="{name:'singleProduct', params:{id:product.id}}">
+              <router-link :to="{name:'singleProduct', params:{id:product.product_id}}">
                 <button class="btn btn-danger">View</button>
               </router-link>
             </div>

@@ -16,7 +16,7 @@ export default {
   },
   mounted(){
     this.$store.dispatch('getProducts');
-    this.$store.dispatch('clearSingleProduct');
+    // this.$store.dispatch('clearSingleProduct');
   },
   computed:{
     products(){
@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 #main {
-  background-image: url(https://i.postimg.cc/Hj1L1Wvb/wp9306523-football-pc-4k-wallpapers.jpg);
+  background-image: url();
   background-size: cover;
   background-position:center;
   background-repeat: no-repeat;
